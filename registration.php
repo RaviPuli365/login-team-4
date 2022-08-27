@@ -33,7 +33,7 @@ VALUES ('$username', '".md5($password)."', '$email', '$trn_date')";
 <input type="text" name="username" placeholder="Username" required />
 <input type="email" name="email" placeholder="Email" required />
 <input type="password" name="password" placeholder="Password" required />
-<input type="submit" name="submit" value="Register" />
+<input type="submit" name="submit" href="index.php "value="Register" />
 </form>
 </div>
 <?php } ?>
